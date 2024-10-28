@@ -18,20 +18,28 @@ const Projects: Array<Project> = [
     SkillsIcons: "tauri,svelte,rust,ts"
   },
   {
-    Title: "SoccerNet.",
-    Description: "Welcome to SoccerNet, the ultimate platform for football lovers!",
-    RepositoryURL: "https://soccernet.vercel.app/",
-    ProjectURL: "https://soccernet.vercel.app/",
-    Tags: ["ts", "typescript", "nextjs", "express", "firebase", "vercel"],
-    SkillsIcons: "ts,nextjs,express,firebase,vercel"
-  },
-  {
     Title: "Ivory.",
     Description: "Your favorite little space.",
     RepositoryURL: "https://github.com/Furyforev3r/Ivory",
     ProjectURL: "https://ivory-social.vercel.app/",
     Tags: ["ts", "typescript", "svelte", "firebase", "vercel"],
     SkillsIcons: "ts,svelte,firebase,vercel"
+  },
+  {
+    Title: "FiloStream.",
+    Description: "Stream all your favorite content quickly, easily and organized.",
+    RepositoryURL: "https://github.com/Furyforev3r/FiloStream",
+    ProjectURL: "https://filostream.vercel.app/",
+    Tags: ["ts", "typescript", "svelte", "firebase", "vercel"],
+    SkillsIcons: "ts,svelte,firebase,vercel"
+  },
+  {
+    Title: "SoccerNet.",
+    Description: "Welcome to SoccerNet, the ultimate platform for football lovers!",
+    RepositoryURL: "https://soccernet.vercel.app/",
+    ProjectURL: "https://soccernet.vercel.app/",
+    Tags: ["ts", "typescript", "nextjs", "express", "firebase", "vercel"],
+    SkillsIcons: "ts,nextjs,express,firebase,vercel"
   },
   {
     Title: "Quantix-Bank.",
