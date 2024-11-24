@@ -10,7 +10,7 @@ export declare interface Project {
 const Projects: Array<Project> = [
   {
     Title: "Win.",
-    Description: "Win is a modern and lightweight code editor",
+    Description: "Win is a modern and lightweight code editor.",
     RepositoryURL: "https://github.com/Furyforev3r/Win",
     ProjectURL: "https://github.com/Furyforev3r/Win",
     TagsArray: ["Typescript", "Sveltekit", "Cargo", "Rust", "Tauri"],

@@ -8,7 +8,7 @@
 </svelte:head>
 
 <section class="main">
-    <div class="content">
+    <div class="content screen">
         <h1>Projects.</h1>
         <ul>
             {#each Projects as project, index}
@@ -16,8 +16,10 @@
                     <a href={project.ProjectURL}>
                         <h3>{index + 1}. {project.Title}</h3>
                     </a>
-                    <p>{project.Description}</p>
-                    <p class="technologies">Technologies: {project.Tags}</p>
+                    <div>
+                        <p>{project.Description}</p>
+                        <p class="technologies">Technologies: {project.Tags}</p>
+                    </div>
                     <a href={project.RepositoryURL}>
                         <Icon icon="mdi:github" width="2rem" height="2rem" /> Github repository
                     </a>
@@ -25,7 +27,7 @@
             {/each}
         </ul>
     </div>
-    <div class="divider"></div>
+    <div class="divider screen"></div>
     <nav class="navbar">
         <ul>
             <li>
@@ -74,7 +76,7 @@
         height: 100%;
     }
 
-    .main div {
+    .screen {
         width: 50%;
     }
 
@@ -168,5 +170,11 @@
 
     .technologies {
         color: var(--title-color);
+        transition: color 0.3s;
+    }
+
+    .technologies:hover {
+        color: var(--text-alternative);
+        text-decoration: underline;
     }
 </style>
