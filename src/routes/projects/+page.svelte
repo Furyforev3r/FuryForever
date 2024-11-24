@@ -17,6 +17,7 @@
                         <h3>{index + 1}. {project.Title}</h3>
                     </a>
                     <p>{project.Description}</p>
+                    <p class="technologies">Technologies: {project.Tags}</p>
                     <a href={project.RepositoryURL}>
                         <Icon icon="mdi:github" width="2rem" height="2rem" /> Github repository
                     </a>
@@ -163,5 +164,9 @@
 
     .socials ul li a :global(svg):hover {
         color: var(--text-alternative);
+    }
+
+    .technologies {
+        color: var(--title-color);
     }
 </style>
