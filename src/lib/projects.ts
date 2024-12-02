@@ -41,6 +41,14 @@ const Projects: Array<Project> = [
     Tags: "Typescript, Next.js, Express.js, Firebase, Vercel"
   },
   {
+    Title: "GoWeather.",
+    Description: "A application that fetches the current weather information for a given city.",
+    RepositoryURL: "https://github.com/Furyforev3r/GoWeather",
+    ProjectURL: "https://github.com/Furyforev3r/GoWeather",
+    TagsArray: ["go", "golang", "OpenWeather"],
+    Tags: "Go/Golang, OpenWeather"
+  },
+  {
     Title: "Quantix-Bank.",
     Description: "Manage your finances effortlessly with cutting-edge technology.",
     RepositoryURL: "https://github.com/Furyforev3r/Quantix-Bank",
