@@ -33,6 +33,14 @@ const Projects: Array<Project> = [
     Tags: "Typescript, Sveltekit, Firebase, Vercel"
   },
   {
+    Title: "Pulse Nova.",
+    Description: "Pulse Nova is a rhythm game built in Lua using the LÖVE engine!",
+    RepositoryURL: "https://github.com/Furyforev3r/Pulse-Nova",
+    ProjectURL: "https://github.com/Furyforev3r/Pulse-Nova",
+    TagsArray: ["Lua"],
+    Tags: "Lua"
+  },
+  {
     Title: "SoccerNet.",
     Description: "Welcome to SoccerNet, the ultimate platform for football lovers!",
     RepositoryURL: "https://soccernet.vercel.app/",
