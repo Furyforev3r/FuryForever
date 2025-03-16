@@ -56,6 +56,11 @@
 					<Icon icon="mdi:linkedin" width="2rem" height="2rem" />
 				</a>
 			</li>
+			<li>
+				<a href="/Resume%20-%20Messias%20Robson.pdf" download>
+					<Icon icon="mdi:resume" width="2rem" height="2rem" />
+				</a>
+			</li>
 		</ul>
 	</nav>
 </section>
