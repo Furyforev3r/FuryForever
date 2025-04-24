@@ -29,7 +29,7 @@ const Projects: Array<Project> = [
     Description: "Stream all your favorite content quickly, easily and organized.",
     RepositoryURL: "https://github.com/Furyforev3r/FiloStream",
     ProjectURL: "https://filostream.vercel.app/",
-    TagsArray: ["Typescript", "Typescript", "Sveltekit", "Firebase", "Vercel"],
+    TagsArray: ["Typescript", "Sveltekit", "Firebase", "Vercel"],
     Tags: "Typescript, Sveltekit, Firebase, Vercel"
   },
   {
@@ -41,12 +41,12 @@ const Projects: Array<Project> = [
     Tags: "Lua"
   },
   {
-    Title: "SoccerNet.",
-    Description: "Welcome to SoccerNet, the ultimate platform for football lovers!",
-    RepositoryURL: "https://soccernet.vercel.app/",
-    ProjectURL: "https://soccernet.vercel.app/",
-    TagsArray: ["Typescript", "Typescript", "Nextjs", "Express", "Firebase", "Vercel"],
-    Tags: "Typescript, Next.js, Express.js, Firebase, Vercel"
+    Title: "Aim.",
+    Description: "Aim is a training platform to help sharpen up your core FPS aiming skills!",
+    RepositoryURL: "https://github.com/Furyforev3r/aim",
+    ProjectURL: "https://aim-black.vercel.app/",
+    TagsArray: ["Typescript", "Svelte", "Sveltekit", "Vercel"],
+    Tags: "Typescript, Sveltekit, Vercel"
   },
   {
     Title: "GoWeather.",
